@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&display=swap');
+body{
+    font-family: "Bitcount Single", system-ui;
+
+}
+.titulo{
+    color: #D32F2F;
+    text-align: center;
+    
+    font-size: "35px";
+}
+.subtitulo{
+    color: pink;
+    text-align: center;
+    font: "20px";
+}
+.texto-apresentacao{
+    /*text-align: center;*/
+    color: white;
+}
+.cabecalho{
+    text-align: center;
+    background-color: black;
+}
+.menu{
+    text-align: center;
+
+}
+.secao{
+    text-align: center;
+    color: red;
+    font-size: 30px;
+}
+.card{
+    background-color: black;
+    color: white;
+    width: 300px;
+    text-align: center;
+}
+
+.card-titulo{
+    text-align: center;
+    color: red;
+}
+.card-descricao{
+    font-size: small;
+    text-align: left;
+}
+
+.card-preco{
+    color: red;
+    font-size: larger;
+    text-align: left;
+}
+
+.card-botao{
+    text-align: right;
+    background-color: red;
+    color: white;
+}

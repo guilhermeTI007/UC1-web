@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.anotacoes{
+    color: #FF9800; /* MUDA A COR DA LETRA */
+    font-size: 25px; /* MUDA O TAMANHO DA LETRA */
+    background: #FFE0B2; /* MUDA A COR DO FUNDO */
+    text-align: center; /* CENTRALIZA O TEXTO NA TELA */
+    width: 300px; /* MUDA A LARGURA/TAMANHO DAS COISAS */
+}
+
+body{
+    font-family: "Noto Sans", sans-serif;
+}
+
+.titulo{
+    color: #F57C00;
+    font-size: 35px;
+}
+
+.subtitulo{
+    color: #FF9800;
+    font-size: 25px;
+}
+
+.cabecalho{
+    background-color: #FFE0B2; 
+    text-align: center;
+}
+
+.menu{
+    text-align: center;
+}
+
+.secao{
+    text-align: center;
+    color: #F57C00;
+    font-size: 30px;
+}
+
+.card{
+    background-color: #FFE0B2;
+    width: 300px;
+    text-align: center;
+}   
+
+.card-titulo{
+    font-size: 25px;
+    color: #F57C00;
+}
+
+.card-descricao{
+    text-align: left;
+    font-size: 12px;
+}
+
+.card-preco{
+    text-align: left;
+    font-size: 20px;
+    color: #F57C00;
+}
+
+.card-rodape{
+    text-align: center;
+}
+
+.card-botao{
+    background-color: #F57C00;
+    color: white;
+}

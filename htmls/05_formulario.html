@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="pt-br">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula de formularios em html</title>
+</head>
+<body>
+    <h1>Cadastros de Usuario</h1>
+    
+
+    <form>
+        <h2>Informações pessoais</h2>
+        <p>digite seus nomes</p>
+        <input size="50" minlength="10" required/>
+        <p>digite seus email</p>
+        <input size="40" minlength="12" type="email" required/>
+        <p>Digite sua senhas</p>
+        <input size="35" type="password" size="10" placeholder="senhas" minlength="6" required/>
+        <p>digite sua data de nascimento</p>
+        <input type="date" required/>
+        
+        <br/>
+        <p><strong>Interesses</strong></p> 
+           <input type="checkbox"/> <a><strong>Programação</strong></a><br/>
+           <input type="checkbox"/> <a><strong>Desing</strong></a><br/>
+           <input type="checkbox"/> <a><strong>Analise de dados</strong></a><br/>
+        <h2>Local da Entrega</h2>
+        <p>CEP</p>
+        <input size="45" minlength="9" maxlength="9" type="text" required/>
+        <p>Endereço completo</p>
+        <input size="45" placeholder="rua, numero e bairro..."/>
+        <p>Cidade:</p>
+        <select required>
+            <option value="">Selecione</option>
+            <option value="araraquara">Araraquara</option>
+            <option value="ribeirao_preto">Ribeirão Preto</option>
+            <option value="sao_carlos">São Carlos</option>
+        </select>
+
+        <h2>Preferencias</h2>
+        <p>Tipo de entrega</p>
+        
+        <p>Tipo de entrega</p>
+
+    <input type="radio" name="entrega" value="pac" checked>
+    <strong>PAC</strong><br>
+
+    <input type="radio" name="entrega" value="sedex">
+    <strong>Sedex</strong><br>
+
+    <input type="radio" name="entrega" value="correios">
+    <strong>Correios</strong><br>
+        <p>Observação:</p>
+        <textarea rows="9" cols="55"></textarea>
+        
+        <br/><br/><br/><br/>
+        <button>SALVAR</button>
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

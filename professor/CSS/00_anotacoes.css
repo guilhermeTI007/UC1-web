@@ -1,0 +1,14 @@
+.anotacoes{
+    color: #FF9800; /* MUDA A COR DA LETRA */
+    font-size: 25px; /* MUDA O TAMANHO DA LETRA */
+    background-color: #FFE0B2; /* MUDA A COR DO FUNDO */
+    text-align: center; /* CENTRALIZA O TEXTO NA TELA */
+    width: 300px; /* MUDA A LARGURA/TAMANHO DAS COISAS */
+    margin: 20px; /* AUMENTA O ESPAÇO -> POR FORA <- */
+    padding: 20px; /* AUMENTA O ESPAÇO -> POR DENTRO <- */
+    border-radius: 10px; /* BORDAS ARREDONDADAS */
+    border: 1px solid red; /* CRIA UMA BORDA */
+    border: none; /* REMOVE A BORDA */
+    box-shadow: 1px 2px 3px #CCCCCC; /* SOMBRA */
+    font-weight: bold; /* PESO DA FONTE (negrito) */
+}

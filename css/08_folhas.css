@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{ /*assim que comenta no css e tudo que se aplica no bodyse aplica no site todo */
+ background-color: black;
+ text-align: center;   
+ font-family: "Roboto", sans-serif;
+}
+
+
+
+
+
+
+h1{
+color: aqua;
+size: "30px";
+background-color: black;
+
+text-align: center;
+}
+p{
+    color: blueviolet;
+    background-color: black;
+}
+
+button{
+    color: rgb(255, 0, 0);
+    background-color: blue;
+}

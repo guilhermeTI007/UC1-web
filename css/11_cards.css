@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&display=swap');
+body{
+    font-family: "Bitcount Single", system-ui;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.card{
+    background-color: #ffffff;
+    box-shadow: 10px 10px 30px #ff0000;
+    width: 500px;
+    border-radius: 40px;
+}
+
+.card-categoria {
+    margin-bottom: 1px;
+    color: #a6a6a6;
+}
+.card-titulo{
+    margin-top: 1px;
+    color: #000000;
+    font-weight: 500px; 
+    margin-bottom: 1px;
+}
+
+.card-botao{
+    width: 75%;
+    color: #ffffff;
+    background-color: #1C85F7;
+    border-radius: 10px;
+}
+
+.card-descricao{
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+
+.capsula{
+    background-color: #F3DDF2;
+    color: #ca34af;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 5px 10px ;
+    margin: 0px;
+}
+.card-corpo{
+    padding: 20px;
+    padding-top: 0px;
+}
+.card-imagem{
+    width: 100%;
+    border-radius: 40px 40px 0px 0px;
+}
+.deck{
+    display:flex;
+ /* gap: 100px;  */
+    justify-content: space-around;
+}

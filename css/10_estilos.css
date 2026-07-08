@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&display=swap');
+
+body{
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Bitcount Single", system-ui;
+
+}
+.cabecalho{
+    background-color: #353839;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 200px;
+    box-shadow: 5px 10px 20px red;
+}
+
+
+    .cabecalho h1{
+        margin: opx;
+
+    }
+    .cabecalho p{
+       margin: 0px;
+       margin-bottom: 20px;
+       margin-top: 30px;
+    }
+
+.botao{
+
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+
+
+
+
+.bota-principal{
+    /* padding: 8px 15px;
+    border-radius: 5px; */
+    background-color: #ffffff;
+    color: red;
+    /* border: 1px solid red; */
+    border: none;
+    cursor: crosshair;
+}
+.botao-invertido{
+    /* padding: 8px 15px;
+    border-radius: 5px; */
+    /* background-color: #000000; */
+    border: 1px solid red;
+    color: green;
+    background-color: transparent;
+}
+
+

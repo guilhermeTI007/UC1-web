@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Noto Sans", sans-serif;
+    color: #555555;
+    background-color: #F5F5F5;
+}
+
+.deck{
+    display: flex;
+    gap: 50px;
+    /* justify-content: center; */
+}
+
+.card{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px #CCC;
+    width: 280px;
+}
+
+.card-categoria{
+    color: #CCC;
+    margin: 0;
+    font-size: 12px;
+}
+
+.card-titulo{
+    color: #000;
+    margin: 0;
+    margin-top: -2px;
+}
+
+.card-descricao{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.card-botao{
+    width: 50%;
+    background-color: #1E85F7;
+    color: white;
+    padding: 7px;
+    border-radius: 20px;
+    border: none;
+}
+
+.capsula{
+    background-color: #F3DDF2;
+    color: #ca34af;
+    width: fit-content;
+    padding: 0px 15px;
+    font-size: 10px;
+    border-radius: 20px;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.card-corpo{
+    padding: 20px;
+    padding-top: 0;
+}
+
+.card-imagem{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+

@@ -1,0 +1,11 @@
+.anotacoes{
+    color: red ; /*muda cor da letra*/
+    font-size: larger; /*muda o tamanho da letra*/
+    background: red; /*muda a cor do fundo*/
+    text-align: center; /*alinha o texo ao um respectivo ponto*/
+    width: 200px; /*muda o tamanho das coisas, altura e largura*/
+    box-shadow: inset;
+    border: 00px;
+    border-radius: 0cap;
+    font-family: 'Courier New', Courier, monospace;
+}
